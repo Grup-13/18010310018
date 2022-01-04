@@ -18,7 +18,7 @@ public class TCPRouter
       {  
           try  
           {  
-        	  System.out.println("TCPRoute Başlatılıyor..\\nLocalhost'un ip Adresi Alınıyo..");
+        	  System.out.println("TCPRoute Başlatılıyor..Localhost'un ip Adresi Alınıyo..");
         	  host = InetAddress.getLocalHost();  
           }  
           catch(Exception uhEx)  
@@ -95,7 +95,7 @@ public class TCPRouter
           try  
           {  
              System.out.println(  
-                        "\n* Closing Cconnectionions*");  
+                        "* Closing Cconnectionions*");  
              ServerLink.close(); 
              ClientLink.close();
           }  
