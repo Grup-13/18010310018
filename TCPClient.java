@@ -187,7 +187,7 @@ public class TCPClient {
 	          try  
 	          {  
 	             System.out.println(  
-	                        "\n* Closing Cconnectionions*");  
+	                        "* Closing Cconnectionions*");  
 	             link1.close();
 	             link2.close();
 	             link3.close();
